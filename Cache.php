@@ -13,9 +13,9 @@ class Cache {
                             '_', ' ', substr($name, 5)))))] = $value;
                 }
             }
+            return $headers;
         }
-        $headers = getallheaders();
-        return $headers;
+        return getallheaders();
     }
 
     public static function check($uri = null)

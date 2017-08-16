@@ -42,7 +42,7 @@ readfile('/path/to/images/' . $user->profile_picture);
 - [ ] Check file mtime
 - [ ] add parameter for auto adding the prefix
 
-## License and Acknowledgements
+## License
 
 Copyright 2017 Ahmed S. El-Afifi <ahmed.s.elafifi@gmail.com>
 
